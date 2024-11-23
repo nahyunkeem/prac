@@ -1,0 +1,52 @@
+11 
+f = input()
+f = float(f)
+print(f)
+
+12
+a = input() 
+b = input()
+a=int(a)
+b=int(b)
+print(a)
+print(b)
+
+13
+a = input()
+b = input()
+print(b)
+print(a)
+
+14
+f = input()
+print(f) 
+print(f)
+print(f)
+
+15
+a, b = input().split()
+print(a)
+print(b)
+
+16
+a, b=input().split()
+print(b)
+print(a)
+
+17
+s = input()
+print(s, s, s) 
+
+18
+a=input()
+print(a)
+
+19
+y, m, d = input().split('.')
+print(d,m,y, sep='-')
+
+20
+a = input()
+ymd = a.split("-")[0]
+code = a.split("-")[1]
+print(ymd+code)
