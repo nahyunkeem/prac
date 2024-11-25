@@ -1,0 +1,51 @@
+21
+s = input()
+for i in s:
+    print(i)
+
+22
+s = input()
+print(s[0:2]+" "+s[2:4]+" "+s[4:])
+
+23
+t = input()
+h, m, s = t.split(':')
+print(m)
+
+24
+w1, w2 = input().split()
+s = w1 + w2
+print(s)
+
+25
+a, b = input().split()
+c = int(a) + int(b)
+print(c)
+
+26
+a = float(input())
+b = float(input())
+print(a + b)
+
+27
+a = input()
+n = int(a)           
+print('%x'% n)
+
+28
+n = int(input()) 
+print('%X' % n)
+
+29
+a = input()
+n = int(a, 16)     
+print('%o' % n)
+
+30
+n = ord(input())
+print(n)
+
+
+
+
+
