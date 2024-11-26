@@ -1,0 +1,47 @@
+31
+c = int(input())
+print(chr(c)) 
+
+32
+n = int(input())
+print(-n) 
+
+33
+c = input()
+n_c = chr(ord(c) + 1)
+print(n_c)
+
+34
+a, b = input().split()
+c = int(a) - int(b)
+print(c)
+
+35
+f1, f2 = input().split()
+m = float(f1)*float(f2)
+print(m)
+
+36
+w, n = input().split()
+print(w*int(n))
+
+37
+n = input()
+s = input()
+print(int(n)*s)
+
+38
+a, b = input().split()
+c = int(a)**int(b)
+print(c)
+
+39
+f1, f2 = input().split()
+m = float(f1)**float(f2)
+print(m)
+
+40
+a, b=input().split()
+c= int(a)//int(b)
+print(c)
+
