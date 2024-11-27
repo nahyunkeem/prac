@@ -1,0 +1,59 @@
+41
+a, b=input().split()
+print(int(a)%int(b))
+
+42
+a=input()
+a=float(a)
+print( format(a, ".2f") )
+
+43
+f1, f2=input().split()
+c=float(f1)/float(f2)
+print( format(c, ".3f") )
+
+44
+a, b = input().split()
+print(int(a)+int(b))
+print(int(a)-int(b))
+print(int(a)*int(b))
+print(int(a)//int(b))
+print(int(a)%int(b))
+print(format(int(a)/int(b), ".2f") )
+
+45
+a, b, c = input().split()
+d=int(a)+int(b)+int(c)
+e=(int(a)+int(b)+int(c))/3
+print(d,format(e, ".2f"))
+
+46
+a=input()
+n=int(a)
+print(n<<1)
+
+47
+a, b=input().split()
+print(int(a)<<int(b))
+
+48
+a, b=input().split()
+if int(a) < int(b):
+    print(True)
+else:
+    print(False)
+
+49
+a, b=input().split()
+if int(a) == int(b):
+    print(True)
+else:
+    print(False)
+
+50
+a, b=input().split()
+if int(b) >= int(a):
+    print(True)
+elif int(b) != int(a):
+    print(False)
+
