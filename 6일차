@@ -1,0 +1,48 @@
+51
+a,b=input().split()
+if int(a) == int(b):
+    print(False)
+elif int(a) != int(b):
+    print(True)
+
+52
+n = int(input())
+print(bool(n))
+
+53
+a = bool(int(input()))
+print(not a)
+
+54
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
+
+55
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
+
+56
+a, b = input().split()
+c = bool(int(a))
+d = bool(int(b))
+print((c and (not d)) or ((not c) and d))
+
+57
+a, b = input().split()
+c = bool(int(a))
+d = bool(int(b))
+print((not c and (not d)) or ((c) and d))
+
+58
+a, b = input().split()
+c = bool(int(a))
+d = bool(int(b))
+print(not c and not d)
+
+59
+a =int(input())
+print(~a)
+
+60
+a, b = map(int, input().split())
+print(a & b)
