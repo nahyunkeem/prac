@@ -1,0 +1,123 @@
+70
+n = int(input())
+
+# 12, 1, 2 : winter
+#   3, 4, 5 : spring
+#   6, 7, 8 : summer
+#   9, 10, 11 : fall
+
+if n//3==1 :
+  print("spring")
+elif n//3==2 :
+    print("summer")
+elif n//3==3 :
+    print("fall")
+else:
+    print("winter")
+    
+69
+# 평가를 문자(A, B, C, D, ...)로 입력받아 내용을 다르게 출력해보자.
+a = input()
+
+if a == "A":
+    print("best!!!")
+elif a == "B":
+    print("good!!")
+elif a == "C":
+    print("run!")
+elif a == "D":
+    print("slowly~")
+else:
+    print("what?")
+# 평가 내용
+# 평가 : 내용
+# A : best!!!
+# B : good!!
+# C : run!
+# D : slowly~
+# 나머지 문자들 : what?
+
+68
+n = int(input())
+
+if 90 <= n <= 100 :
+    print('A')
+elif 70 <= n <= 89 :
+    print('B')
+elif 40 <= n <= 69 :
+    print('C')
+else:
+    print('D')
+      
+      
+#  90 ~ 100 : A
+#  70 ~   89 : B
+#  40 ~   69 : C
+#   0 ~   39 : D
+
+67
+n = int(input())
+if n<0 :
+  if n%2==0 :
+    print('A')      #주의 : 변수 A와 문자열 'A' / "A" 는 의미가 완전히 다르다. 
+  else :
+    print('B')
+elif n>0 :
+  if n%2==0 :
+    print('C')
+  else :
+    print('D')
+
+# 음수이면서 짝수이면, A
+# 음수이면서 홀수이면, B
+# 양수이면서 짝수이면, C
+# 양수이면서 홀수이면, D
+
+66
+a, b, c=map(int, input().split())
+
+d = [a, b, c]
+
+for i in d:
+    if i%2==0 :
+        print("even")
+    else:
+        print("odd")
+65
+a, b, c = map(int, input().split())
+
+if a%2==0 :  #논리적으로 한 단위로 처리해야하는 경우 콜론(:)을 찍고, 들여쓰기로 작성 한다.
+  print(a)
+
+if b%2==0 :
+  print(b) 
+
+if c%2==0 :
+  print(c)
+
+64
+a, b, c = input().split()
+a = int(a)  #변수 a에 저장되어있는 값을 정수로 바꾸어 다시 변수 a에 저장
+b = int(b)
+c = int(c)
+d = (a if a<=b else b) if ((a if a<=b else b)<=c) else c
+print(int(d))
+
+63
+a, b = input().split()
+a = int(a)  #변수 a에 저장되어있는 값을 정수로 바꾸어 다시 변수 a에 저장
+b = int(b)
+c = (a if (a>=b) else b)
+print(int(c))
+
+62
+a, b = map(int, input().split())
+print(a ^ b)
+
+61
+a, b = map(int, input().split())
+print(a | b)
+
+60
+a, b = map(int, input().split())
+print(a & b)
