@@ -1,0 +1,21 @@
+81
+hex_input = input().strip()
+
+# 16진수 문자를 10진수로 변환
+n = int(hex_input, 16)
+
+# 1부터 F까지 곱하기
+for i in range(1, 16):  # 1부터 15까지
+    result = n * i
+    print(f'{hex_input}*{i:X}={result:X}')
+
+82
+n=int(input()) 
+
+for i in range(1, n+1) :
+  if i % 10 == 3 or i % 10 == 6 or i % 10 == 9:
+    print("X", end=' ')
+  else:  
+    print(i, end=' ')
+
+83
